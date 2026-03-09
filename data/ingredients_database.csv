@@ -1,0 +1,351 @@
+ingredient_name,common_aliases,category,concern_level,explanation,skin_types_to_avoid
+Sodium Lauryl Sulfate,"SLS, Sodium Laurilsulfate, Sodium Dodecyl Sulfate",Sulfate,Avoid,Harsh surfactant that strips the skin's natural oils and disrupts the skin barrier. One of the most irritating cleansing agents used in cosmetics.,"sensitive, dry, acne-prone, eczema"
+Sodium Laureth Sulfate,"SLES, Sodium Lauryl Ether Sulfate, Sodium Polyoxyethylene Lauryl Ether Sulfate",Sulfate,Caution,"Milder than SLS but still a strong surfactant. Can cause irritation with prolonged use, especially in sensitive individuals.","sensitive, dry, eczema"
+Ammonium Lauryl Sulfate,"ALS, Ammonium Dodecyl Sulfate",Sulfate,Avoid,Similar to SLS in irritation potential. Strips natural oils and can cause dryness and redness.,"sensitive, dry, acne-prone"
+Ammonium Laureth Sulfate,ALES,Sulfate,Caution,Slightly milder than ALS. Still a strong cleanser that can disrupt the skin barrier over time.,"sensitive, dry"
+Sodium Coco Sulfate,"SCS, Coconut Sulfate",Sulfate,Caution,Derived from coconut oil but still a harsh sulfate. Often marketed as natural but can be irritating.,"sensitive, eczema"
+Sodium Myreth Sulfate,SMS,Sulfate,Caution,Surfactant used in cleansers. Moderately irritating and can cause dryness with frequent use.,"sensitive, dry"
+Sodium Xylenesulfonate,,Sulfate,Caution,Used as a solubiliser and viscosity agent. Can be irritating at higher concentrations.,sensitive
+TEA Lauryl Sulfate,Triethanolamine Lauryl Sulfate,Sulfate,Avoid,Strong surfactant with irritation potential. TEA compounds can form nitrosamines which are a safety concern.,all
+Sodium Olefin Sulfonate,"Alpha Olefin Sulfonate, AOS",Sulfate,Caution,Strong cleansing agent that can strip moisture and cause irritation in sensitive individuals.,"sensitive, dry"
+Disodium Laureth Sulfosuccinate,,Sulfate,Safe,One of the gentlest sulfate-based surfactants. Much milder than SLS or SLES. Generally well tolerated.,none
+Sodium Lauryl Sulfoacetate,SLSA,Sulfate,Safe,Derived from coconut and palm oils. Gentler than SLS and less likely to cause irritation.,none
+Sodium Cocoyl Isethionate,"SCI, Baby Foam",Sulfate,Safe,Very mild sulfate-free surfactant derived from coconut oil. Gentle enough for sensitive and baby skin.,none
+Methylparaben,"Methyl 4-hydroxybenzoate, Nipagin M",Paraben,Caution,"Most commonly used paraben preservative. Concerns exist around weak estrogenic activity and potential endocrine disruption, though evidence is debated.","sensitive, hormonal-acne"
+Propylparaben,"Propyl 4-hydroxybenzoate, Nipasol",Paraben,Caution,Stronger estrogenic activity than methylparaben. More concerning from an endocrine disruption standpoint.,"sensitive, hormonal-acne"
+Butylparaben,Butyl 4-hydroxybenzoate,Paraben,Avoid,Has the strongest estrogenic activity among common parabens. EU has restricted its use in cosmetics for children under 3.,all
+Ethylparaben,Ethyl 4-hydroxybenzoate,Paraben,Caution,Moderate estrogenic activity. Less studied than methyl and propylparaben but shares similar concerns.,"sensitive, hormonal-acne"
+Isobutylparaben,Isobutyl 4-hydroxybenzoate,Paraben,Avoid,Strong estrogenic activity similar to butylparaben. Restricted in EU for leave-on products.,all
+Isopropylparaben,Isopropyl 4-hydroxybenzoate,Paraben,Avoid,Restricted in EU cosmetics. Significant endocrine disruption concerns.,all
+Benzylparaben,Benzyl 4-hydroxybenzoate,Paraben,Avoid,Least commonly used paraben but carries significant sensitisation risk alongside endocrine concerns.,all
+Sodium Methylparaben,,Paraben,Caution,Sodium salt form of methylparaben. Same concerns as methylparaben apply.,"sensitive, hormonal-acne"
+Sodium Propylparaben,,Paraben,Caution,Sodium salt form of propylparaben. Same estrogenic activity concerns as propylparaben.,"sensitive, hormonal-acne"
+Sodium Butylparaben,,Paraben,Avoid,Sodium salt form of butylparaben. Carries the same endocrine disruption concerns.,all
+Isopropyl Myristate,IPM,Comedogenic,Avoid,One of the most highly comedogenic ingredients in cosmetics. Clogs pores rapidly and is a well-documented cause of acne cosmetica.,"oily, acne-prone, combination"
+Isopropyl Palmitate,IPP,Comedogenic,Avoid,Highly comedogenic ester similar to isopropyl myristate. Frequently causes breakouts in acne-prone individuals.,"oily, acne-prone"
+Isopropyl Isostearate,,Comedogenic,Avoid,Highly comedogenic emollient. Known to cause clogged pores and milia.,"oily, acne-prone"
+Coconut Oil,Cocos Nucifera Oil,Comedogenic,Caution,"Rates 4 out of 5 on the comedogenicity scale. Despite its popularity, it clogs pores significantly for acne-prone skin.","oily, acne-prone"
+Cocoa Butter,"Theobroma Cacao Seed Butter, Theobroma Cacao Butter, Theobroma Cocoa Butter, Cupuacu Butter, Cocoa Seed Butter",Comedogenic,Caution,Highly comedogenic emollient. Highly occlusive and rates 4 on the comedogenicity scale. Great for dry body skin but problematic on the face.,"oily, acne-prone, combination"
+Wheat Germ Oil,Triticum Vulgare Germ Oil,Comedogenic,Avoid,"One of the most comedogenic oils available, rating 5 out of 5. Avoid entirely if acne-prone.","oily, acne-prone, combination"
+Lanolin,"Wool Wax, Wool Grease, Adeps Lanae",Comedogenic,Caution,Derived from sheep wool. Rates 4 on comedogenicity. Also a known allergen for some individuals.,"oily, acne-prone, sensitive"
+Linseed Oil,"Flaxseed Oil, Linum Usitatissimum Seed Oil",Comedogenic,Caution,Rates 4 on comedogenicity scale. Oxidises quickly which can also cause irritation.,"oily, acne-prone"
+Palm Oil,Elaeis Guineensis Oil,Comedogenic,Caution,Moderately comedogenic. Also raises environmental concerns around deforestation.,"oily, acne-prone"
+Soybean Oil,Glycine Soja Oil,Comedogenic,Caution,Rates 3-4 on comedogenicity. Can clog pores with regular facial use.,"oily, acne-prone"
+Peach Kernel Oil,Prunus Persica Kernel Oil,Comedogenic,Caution,Rates 4 on comedogenicity. Light texture but still pore-clogging for acne-prone skin.,"oily, acne-prone"
+Apricot Kernel Oil,Prunus Armeniaca Kernel Oil,Comedogenic,Caution,"Rates 2-3 on comedogenicity. Borderline — some acne-prone individuals tolerate it, others do not.","oily, acne-prone"
+Avocado Oil,Persea Gratissima Oil,Comedogenic,Caution,Rates 3 on comedogenicity. Rich and heavy — better suited for dry skin and body use.,"oily, acne-prone"
+Olive Oil,Olea Europaea Fruit Oil,Comedogenic,Caution,"Rates 2-3 on comedogenicity. Despite being natural, it can disrupt the skin barrier and clog pores.","oily, acne-prone"
+Corn Oil,Zea Mays Oil,Comedogenic,Caution,Rates 3 on comedogenicity. Frequently used in formulations but problematic for breakout-prone skin.,"oily, acne-prone"
+Cottonseed Oil,Gossypium Herbaceum Seed Oil,Comedogenic,Caution,Rates 3-4 on comedogenicity. Common in food-grade cosmetics but clogs pores.,"oily, acne-prone"
+Acetylated Lanolin,Acetylated Wool Wax,Comedogenic,Avoid,Modified lanolin that rates even higher on the comedogenicity scale than regular lanolin.,"oily, acne-prone, sensitive"
+Acetylated Lanolin Alcohol,,Comedogenic,Avoid,Rates 5 out of 5 on comedogenicity. One of the worst offenders for pore clogging.,"oily, acne-prone"
+Lauric Acid,,Comedogenic,Caution,The main fatty acid in coconut oil responsible for its comedogenicity. Rates 4 out of 5.,"oily, acne-prone"
+Myristic Acid,,Comedogenic,Caution,Saturated fatty acid that rates 3 on the comedogenicity scale.,"oily, acne-prone"
+Stearic Acid,"Octadecanoic Acid, C18, Hexyldecyl Stearate",Comedogenic,Caution,Rates 2-3 on comedogenicity. Used widely as an emollient and emulsifier. Borderline for acne-prone skin.,"oily, acne-prone"
+Sodium Stearate,,Comedogenic,Caution,Soap form of stearic acid. Can be drying and comedogenic.,"oily, acne-prone, dry"
+Isostearic Acid,,Comedogenic,Caution,Rates 3 on comedogenicity. Commonly used in lip products and foundation.,"oily, acne-prone"
+Myristyl Myristate,,Comedogenic,Avoid,Rates 5 out of 5. Extremely comedogenic emollient used in creams and lipsticks.,"oily, acne-prone, combination"
+Cetyl Acetate,,Comedogenic,Caution,Rates 4 on comedogenicity. Used as an emollient in many lotions.,"oily, acne-prone"
+Decyl Oleate,,Comedogenic,Avoid,Rates 3-4 on comedogenicity. Lightweight feel but still pore-clogging.,"oily, acne-prone"
+Octyl Stearate,,Comedogenic,Avoid,Rates 5 out of 5. Highly comedogenic emollient. Major acne trigger.,"oily, acne-prone, combination"
+Octyl Palmitate,Ethylhexyl Palmitate,Comedogenic,Avoid,Rates 4 on comedogenicity. Common in foundations and sunscreens. Problematic for acne-prone skin.,"oily, acne-prone"
+Glyceryl Stearate,,Comedogenic,Caution,Rates 2-3 on comedogenicity. Mild emulsifier — borderline for sensitive acne-prone skin.,"oily, acne-prone"
+Glyceryl Oleate,,Comedogenic,Caution,Rates 3 on comedogenicity. Used in moisturisers and hair products.,"oily, acne-prone"
+Butyl Stearate,,Comedogenic,Avoid,Rates 3-4 on comedogenicity. Often found in hair pomades and heavy creams.,"oily, acne-prone"
+Jojoba Oil,Simmondsia Chinensis Seed Oil,Comedogenic,Safe,"Technically a liquid wax, not an oil. Rates 0-2 on comedogenicity. Generally non-comedogenic and well tolerated.",none
+Rosehip Oil,"Rosa Canina Fruit Oil, Rosa Rubiginosa Oil",Comedogenic,Safe,Rates 1 on comedogenicity. Rich in linoleic acid which can actually help acne-prone skin. Generally safe.,none
+Hemp Seed Oil,Cannabis Sativa Seed Oil,Comedogenic,Safe,Rates 0 on comedogenicity. High in linoleic acid. Non-pore-clogging and beneficial for acne-prone skin.,none
+Argan Oil,Argania Spinosa Kernel Oil,Comedogenic,Safe,Rates 0-1 on comedogenicity. Lightweight and non-greasy. Generally safe for most skin types.,none
+Marula Oil,Sclerocarya Birrea Seed Oil,Comedogenic,Safe,"Rates 3-4 on comedogenicity. Despite being trendy, can be problematic for oily and acne-prone skin.","oily, acne-prone"
+Shea Butter,Butyrospermum Parkii Butter,Comedogenic,Caution,Rates 0-2 on comedogenicity. Generally safe but can cause issues in some acne-prone individuals. Better for body than face.,"oily, acne-prone"
+Castor Oil,Ricinus Communis Seed Oil,Comedogenic,Caution,Rates 1 on comedogenicity but is extremely thick and occlusive. Can cause congestion with heavy use.,"oily, acne-prone"
+Sunflower Oil,Helianthus Annuus Seed Oil,Comedogenic,Safe,Rates 0-2 on comedogenicity. High in linoleic acid. Generally beneficial for acne-prone and sensitive skin.,none
+Grapeseed Oil,Vitis Vinifera Seed Oil,Comedogenic,Safe,Rates 1 on comedogenicity. Lightweight and non-greasy. Safe for most skin types.,none
+Sea Buckthorn Oil,Hippophae Rhamnoides Oil,Comedogenic,Caution,Rates 2 on comedogenicity. Extremely high in carotenoids — can temporarily tint skin orange with prolonged use.,"oily, acne-prone"
+Pumpkin Seed Oil,Cucurbita Pepo Seed Oil,Comedogenic,Safe,Rates 2 on comedogenicity. Contains zinc which can help with acne. Generally well tolerated.,none
+Tamanu Oil,Calophyllum Inophyllum Seed Oil,Comedogenic,Caution,Rates 2-3 on comedogenicity. Has antibacterial properties but can clog pores in acne-prone individuals.,"oily, acne-prone"
+Mineral Oil,"Paraffinum Liquidum, White Mineral Oil, Petrolatum Liquid, Liquid Paraffin, White Petrolatum, Liquid Petrolatum, Huile Minerale, Paraffine, Nujol, Adepsine Oil",Comedogenic,Caution,"Rates 0-2 on comedogenicity. Contrary to popular belief, cosmetic grade mineral oil is not strongly comedogenic but forms a heavy occlusive layer.","oily, acne-prone"
+Petrolatum,"Petroleum Jelly, White Petrolatum, Vaseline",Comedogenic,Caution,Rates 0-1 on comedogenicity. Excellent occlusive moisturiser but very heavy. Better for dry skin and body use.,"oily, acne-prone"
+Sodium Lauryl Lactylate,,Comedogenic,Caution,Rates 3 on comedogenicity. Used as an emulsifier in creams.,"oily, acne-prone"
+Algae Extract,"Seaweed Extract, Algae",Comedogenic,Caution,"Rates 4-5 on comedogenicity depending on species. Despite being marketed as beneficial, many algae extracts heavily clog pores.","oily, acne-prone"
+Carrageenan,Irish Moss Extract,Comedogenic,Caution,Derived from red algae. Rates 4 on comedogenicity. Also linked to gut inflammation when ingested.,"oily, acne-prone"
+D&C Red Dyes,"D&C Red No. 17, D&C Red No. 21, D&C Red No. 3",Comedogenic,Caution,Synthetic dyes rated 3-5 on comedogenicity. Commonly found in lip products and blush.,"oily, acne-prone"
+Sodium Chloride,"Salt, Table Salt, NaCl",Comedogenic,Caution,High concentrations can be comedogenic. Used as a thickener in shampoos and cleansers. Can cause scalp acne.,"oily, acne-prone"
+Potassium Chloride,,Comedogenic,Caution,Similar to sodium chloride. Comedogenic at higher concentrations.,"oily, acne-prone"
+Beeswax,"Cera Alba, Cera Flava",Comedogenic,Caution,Rates 2 on comedogenicity. Occlusive ingredient used in lip balms and heavy creams. Can trap debris in pores.,"oily, acne-prone"
+Carnauba Wax,Copernicia Cerifera Wax,Comedogenic,Caution,Rates 1-2 on comedogenicity. Used in lip products and mascara. Generally tolerated but can cause issues for sensitive acne-prone skin.,"oily, acne-prone"
+Candelilla Wax,Euphorbia Cerifera Wax,Comedogenic,Safe,Rates 1 on comedogenicity. Vegan alternative to beeswax. Generally safe for most skin types.,none
+Fragrance,"Parfum, Fragrance, Aroma",Irritant,Avoid,The single biggest cause of cosmetic allergies and contact dermatitis. A fragrance listing can hide hundreds of undisclosed chemicals. Always a red flag for sensitive skin.,"sensitive, eczema, rosacea, all"
+Alcohol Denat,"Denatured Alcohol, SD Alcohol, Ethanol, Isopropyl Alcohol",Irritant,Caution,Drying alcohol that disrupts the skin barrier. Evaporates quickly giving a fresh feel but damages the barrier over time. Different from fatty alcohols.,"sensitive, dry, eczema, rosacea"
+Witch Hazel,"Hamamelis Virginiana Extract, Hamamelis Water",Irritant,Caution,"Often used as a natural toner. Contains tannins that can be very drying and irritating, especially in alcohol-based formulations.","sensitive, dry, rosacea"
+Menthol,"L-Menthol, Peppermint Derived Menthol",Irritant,Caution,Creates a cooling sensation but is a known irritant. Can trigger flushing and worsen rosacea. Disrupts the skin barrier.,"sensitive, rosacea, eczema"
+Peppermint Oil,Mentha Piperita Oil,Irritant,Avoid,Contains high levels of menthol and menthone. Strong irritant and sensitiser. No benefit to skin despite popular use.,"sensitive, rosacea, eczema, all"
+Eucalyptus Oil,"Eucalyptus Globulus Leaf Oil, Eucalyptus Essential Oil",Irritant,Avoid,Strong irritant with potential for sensitisation. Can trigger allergic reactions with repeated exposure.,"sensitive, eczema, rosacea"
+Lemon Oil,Citrus Limon Peel Oil,Irritant,Avoid,Phototoxic — reacts with UV light to cause dark spots and burns. Strong irritant and sensitiser.,all
+Lime Oil,Citrus Aurantifolia Peel Oil,Irritant,Avoid,Highly phototoxic citrus oil. Can cause severe hyperpigmentation when skin is exposed to sunlight after use.,all
+Bergamot Oil,Citrus Bergamia Peel Oil,Irritant,Avoid,"Contains bergapten, a known phototoxin. Can cause severe pigmentation and burns in sun-exposed skin.",all
+Cinnamon,"Cinnamomum Zeylanicum Bark Extract, Cinnamon Bark Oil",Irritant,Avoid,One of the most common cosmetic sensitisers. Causes contact dermatitis and can permanently sensitise skin.,all
+Clove Oil,"Eugenia Caryophyllus Bud Oil, Eugenol",Irritant,Avoid,Eugenol from clove is a major allergen. Causes significant irritation and sensitisation.,all
+Tea Tree Oil,Melaleuca Alternifolia Leaf Oil,Irritant,Caution,Antibacterial properties but a known sensitiser with repeated use. Oxidises quickly and becomes more irritating over time.,"sensitive, eczema"
+Lavender Oil,Lavandula Angustifolia Oil,Irritant,Caution,"Despite its calming reputation, lavender oil is a common sensitiser. Contains linalool and linalyl acetate which are allergens.","sensitive, eczema, rosacea"
+Rosemary Oil,Rosmarinus Officinalis Leaf Oil,Irritant,Caution,Can be irritating especially for sensitive skin. Contains camphor which is a known irritant.,"sensitive, eczema, rosacea"
+Geranium Oil,Pelargonium Graveolens Flower Oil,Irritant,Caution,Known skin sensitiser. Contains citronellol and geraniol which are common fragrance allergens.,"sensitive, eczema, rosacea"
+Ylang Ylang Oil,Cananga Odorata Flower Oil,Irritant,Avoid,One of the most allergenic essential oils in cosmetics. Strong sensitiser with little to no skin benefit.,all
+Jasmine Oil,Jasminum Officinale Flower Extract,Irritant,Caution,Common fragrance allergen. Can cause contact dermatitis in sensitive individuals.,"sensitive, eczema, rosacea"
+Oakmoss,Evernia Prunastri Extract,Irritant,Avoid,Restricted by EU cosmetic regulations due to high allergenicity. Strong sensitiser.,all
+Treemoss,Evernia Furfuracea Extract,Irritant,Avoid,EU restricted fragrance ingredient. Known sensitiser and allergen.,all
+Linalool,,Irritant,Caution,Fragrance component found in lavender and many other botanicals. One of the 26 EU-regulated fragrance allergens.,"sensitive, eczema"
+Limonene,,Irritant,Caution,Citrus-derived fragrance component. Oxidises rapidly to form sensitising compounds. One of the 26 EU-regulated fragrance allergens.,"sensitive, eczema"
+Citronellol,,Irritant,Caution,Fragrance allergen found in rose and geranium oils. EU-regulated allergen that must be listed on labels.,"sensitive, eczema"
+Geraniol,,Irritant,Caution,Fragrance allergen found in geranium and rose oils. EU-regulated. Can cause allergic contact dermatitis.,"sensitive, eczema"
+Eugenol,,Irritant,Avoid,Found in clove and cinnamon. Strong sensitiser and one of the most common contact allergens in cosmetics.,all
+Cinnamal,Cinnamaldehyde,Irritant,Avoid,Major allergen in cinnamon. Causes contact dermatitis even in small amounts. EU-regulated fragrance allergen.,all
+Isoeugenol,2-Methoxy-4-(1-propenyl)phenol,Irritant,Avoid,Fragrance allergen related to eugenol. Strong sensitiser — EU-regulated and restricted in many products.,all
+Benzyl Alcohol,,Irritant,Caution,Used as a preservative and fragrance ingredient. Can cause contact sensitivity. Also a mild irritant in higher concentrations.,"sensitive, eczema"
+Benzyl Benzoate,,Irritant,Caution,Fragrance ingredient and insecticide. EU-regulated fragrance allergen. Can cause sensitisation.,"sensitive, eczema"
+Benzyl Cinnamate,,Irritant,Caution,Fragrance allergen found in balsam of Peru. EU-regulated. Common cause of cosmetic allergies.,"sensitive, eczema"
+Formaldehyde,"Formalin, Methanal",Irritant,Avoid,Known carcinogen and strong allergen. Banned or restricted in cosmetics in many countries. Can cause severe contact dermatitis.,all
+DMDM Hydantoin,,Irritant,Avoid,Formaldehyde-releasing preservative. Releases formaldehyde slowly into the formula over time. Linked to hair loss in shampoos.,all
+Imidazolidinyl Urea,,Irritant,Caution,Formaldehyde-releasing preservative. One of the most common causes of cosmetic contact dermatitis.,"sensitive, eczema, all"
+Diazolidinyl Urea,,Irritant,Caution,Formaldehyde-releasing preservative. Releases more formaldehyde than imidazolidinyl urea. Significant sensitisation risk.,"sensitive, eczema, all"
+Quaternium-15,,Irritant,Avoid,Formaldehyde-releasing preservative. One of the strongest formaldehyde releasers used in cosmetics.,all
+Bronopol,"2-Bromo-2-Nitropropane-1,3-Diol",Irritant,Avoid,Preservative that releases formaldehyde. Also a potential nitrosamine former. Linked to contact dermatitis.,all
+Methylisothiazolinone,"MIT, MI",Irritant,Avoid,Powerful preservative associated with a widespread outbreak of contact allergy in Europe. EU has banned it from leave-on products.,all
+Methylchloroisothiazolinone,"MCI, CMIT",Irritant,Avoid,Even more potent sensitiser than MIT. Restricted in EU rinse-off products and banned from leave-on products.,all
+Benzalkonium Chloride,"BAC, Alkyldimethylbenzylammonium Chloride",Irritant,Caution,Preservative and surfactant that disrupts the skin barrier. Common in eye drops but can damage the ocular surface with prolonged use.,"sensitive, eczema, rosacea"
+Propylene Glycol,,Irritant,Caution,Humectant and solvent. Can cause contact dermatitis in high concentrations. Generally safe at low concentrations used in cosmetics.,"sensitive, eczema"
+Sodium Hydroxide,"Lye, Caustic Soda",Irritant,Caution,"Used to adjust pH. At high concentrations it is severely caustic. Safe in finished products where it is neutralised, but worth noting.",sensitive
+Potassium Hydroxide,"KOH, Caustic Potash",Irritant,Caution,Used to adjust pH similar to sodium hydroxide. Safe in neutralised finished products.,sensitive
+Triethanolamine,"TEA, Triethanoamine, Triethanolamide, Trolamine, Sterolamide",Irritant,Caution,pH adjuster that can form carcinogenic nitrosamines when combined with nitrosating agents. Mild irritant and sensitiser.,"sensitive, all"
+Diethanolamine,DEA,Irritant,Avoid,Can form carcinogenic nitrosamines. EU restricts its use. Associated with liver cancer in animal studies.,all
+Resorcinol,,Irritant,Caution,Used in hair dyes and some acne treatments. Potential endocrine disruptor. Can cause sensitisation and systemic toxicity at high doses.,"sensitive, all"
+Hydroquinone,,Irritant,Caution,Skin lightening agent banned for OTC use in EU and some Asian countries. Risk of ochronosis (permanent skin darkening) with prolonged use. Requires prescription in many regions.,all
+Triclosan,,Harmful Chemical,Avoid,Antimicrobial agent banned from hand soaps in the US and restricted in EU. Potential endocrine disruptor. Contributes to antibiotic resistance.,all
+Triclocarban,,Harmful Chemical,Avoid,Similar to triclosan. Banned from OTC antiseptics by FDA. Endocrine disruption concerns.,all
+BHA,"Butylated Hydroxyanisole, tert-Butyl-4-methoxyphenol",Harmful Chemical,Caution,Antioxidant preservative. Listed as a possible human carcinogen by IARC. Potential endocrine disruptor.,all
+BHT,Butylated Hydroxytoluene,Harmful Chemical,Caution,Synthetic antioxidant. Some evidence of endocrine disruption. Considered safe at low cosmetic concentrations but debated.,all
+Oxybenzone,Benzophenone-3,Harmful Chemical,Caution,Chemical UV filter. Significant skin penetration and potential endocrine disruption. Banned in Hawaii due to coral reef damage.,"sensitive, all"
+Octinoxate,"Octyl Methoxycinnamate, Ethylhexyl Methoxycinnamate",Harmful Chemical,Caution,Chemical UV filter that penetrates skin and is found in blood and breast milk. Potential hormone disruption. Hawaii banned.,"sensitive, all"
+Homosalate,,Harmful Chemical,Caution,Chemical UV filter that accumulates in the body faster than it can be eliminated. EU has reduced maximum allowable concentration.,all
+Octisalate,Ethylhexyl Salicylate,Harmful Chemical,Caution,Chemical UV filter and potential endocrine disruptor. Often used to stabilise avobenzone.,"sensitive, all"
+Avobenzone,Butyl Methoxydibenzoylmethane,Harmful Chemical,Caution,Chemical UV filter with some penetration concerns. Degrades in sunlight and needs stabilisers. Generally considered safer than oxybenzone.,sensitive
+Coal Tar,"Tar, Bitumen",Harmful Chemical,Avoid,Derived from coal processing. Known carcinogen. Used in some dandruff and psoriasis treatments. Long-term use raises cancer risk.,all
+Lead Acetate,,Harmful Chemical,Avoid,Neurotoxic heavy metal compound. Used in some hair dyes. Banned in EU cosmetics.,all
+Mercury,"Thiomersal, Thimerosal, Mercuric Chloride",Harmful Chemical,Avoid,Neurotoxic heavy metal. Found in some skin lightening products. Banned in cosmetics in most countries.,all
+Arsenic,,Harmful Chemical,Avoid,Known carcinogen. Sometimes found as contamination in natural ingredient-derived products.,all
+Cadmium,"Cd, Cadmium sulfide (CdS), Cadmium oxide (CdO), Cadmium selenide",Harmful Chemical,Avoid,Toxic heavy metal occasionally found as contamination in pigments and colour cosmetics.,all
+Chromium,,Harmful Chemical,Caution,Hexavalent chromium is a known carcinogen. Found as contamination in some colour cosmetics.,all
+Phthalates,"DBP, DEHP, DEP, Diethyl Phthalate, Dibutyl Phthalate",Harmful Chemical,Avoid,Group of plasticisers used in fragrances and nail products. Strong endocrine disruptors linked to reproductive harm.,all
+Toluene,,Harmful Chemical,Avoid,Solvent found in nail polish. Neurotoxic with inhalation. Reproductive toxicant. Banned in EU nail products.,all
+Formaldehyde Resin,Tosylamide Formaldehyde Resin,Harmful Chemical,Avoid,Used in nail polishes. Strong allergen and potential carcinogen. Causes contact dermatitis of the eyelids from nail touching.,all
+Styrene,,Harmful Chemical,Avoid,Potential carcinogen found in some fragrance compounds. Listed as possible human carcinogen by IARC.,all
+Talc,Magnesium Silicate,Harmful Chemical,Caution,Used in powders and eyeshadows. Concerns exist around asbestos contamination in cosmetic-grade talc. Some studies link talc to ovarian cancer.,all
+Carbon Black,"CI 77266, D&C Black No. 2",Harmful Chemical,Caution,Pigment used in mascaras and eyeliners. Possible carcinogen — classified as Group 2B by IARC.,all
+Styrene Acrylates Copolymer,,Harmful Chemical,Caution,Microplastic film former. Does not biodegrade and accumulates in water systems. Environmental concern.,all
+Polyethylene,"PE, Polyethylene Beads",Harmful Chemical,Avoid,"Microplastic used as exfoliant beads. Banned in rinse-off cosmetics in UK, US, and EU. Environmental pollutant.",all
+PFAS,"Perfluoroalkyl Substances, Fluoropolymers, PTFE",Harmful Chemical,Avoid,"Forever chemicals used in some foundations and waterproof cosmetics for smooth application. Linked to cancer, hormone disruption, and immune effects. Do not biodegrade.",all
+Ethanolamines,"MEA, DEA, TEA, Monoethanolamine",Harmful Chemical,Caution,Group of compounds used as pH adjusters and emulsifiers. Can form carcinogenic nitrosamines. DEA is the most concerning.,"sensitive, all"
+Dimethicone,"Polydimethylsiloxane, PDMS",Silicone,Caution,Most common silicone in cosmetics. Creates a smooth silky feel and acts as an occlusive barrier. Non-comedogenic but can trap debris and bacteria on the skin surface with prolonged use.,"acne-prone, oily"
+Cyclomethicone,"Cyclopentasiloxane, Cyclohexasiloxane, D4, D5, D6",Silicone,Caution,Volatile silicone that evaporates after application. D4 and D5 are restricted in EU wash-off products due to environmental persistence and potential endocrine effects.,all
+Cyclopentasiloxane,"D5, Silicone D5",Silicone,Caution,Volatile silicone restricted in EU rinse-off cosmetics. Environmentally persistent.,all
+Cyclohexasiloxane,D6,Silicone,Caution,Similar to cyclopentasiloxane. EU restricted. Persistent in the environment.,all
+Phenyl Trimethicone,,Silicone,Safe,Gives hair and skin a glossy appearance. Less occlusive than dimethicone. Generally considered safe.,none
+Amodimethicone,,Silicone,Safe,Conditioning silicone used in hair products. Targets damaged areas of hair. Generally safe and effective.,none
+Trimethylsiloxysilicate,,Silicone,Safe,Film-forming silicone used in long-wear makeup. Creates a waterproof coating. Generally safe.,none
+Caprylyl Methicone,,Silicone,Safe,Lightweight silicone with good spreading properties. Generally well tolerated.,none
+Cetyl Dimethicone,,Silicone,Safe,Emollient silicone that conditions skin and hair. Generally safe and non-irritating.,none
+Stearyl Dimethicone,,Silicone,Safe,Heavier silicone used in conditioners and moisturisers. Generally safe.,none
+PEG-12 Dimethicone,"Silsurf D212CG, Dow Corning 5329, DC 5329, Polyethylene Glycol-12 Dimethicone, PEG-12 Dimethicone Copolyol, Ethoxylated Dimethicone",Silicone,Caution,"Water-soluble silicone. PEG compounds can be contaminated with 1,4-dioxane, a potential carcinogen. Generally safe at cosmetic concentrations.",sensitive
+Lauryl Methicone Copolyol,,Silicone,Safe,Water-soluble silicone used as a conditioning agent. Generally safe.,none
+Bis-PEG/PPG-20/20 Dimethicone,,Silicone,Caution,Water-soluble silicone emulsifier. PEG contamination concern applies.,sensitive
+Silica,"Silicon Dioxide, SiO2",Silicone,Safe,Mineral absorbent and thickener. Completely inert and safe. Used to control shine and texture.,none
+Dimethiconol,,Silicone,Safe,Variant of dimethicone with similar properties. Provides conditioning and smoothing effects. Generally safe.,none
+Cetyl Alcohol,"1-Hexadecanol, Palmityl Alcohol",Fatty Alcohol,Safe,"Fatty alcohol derived from coconut or palm oil. Acts as an emollient and thickener. Despite the name, it is not drying and is generally well tolerated.",none
+Cetearyl Alcohol,Cetostearyl Alcohol,Fatty Alcohol,Safe,Blend of cetyl and stearyl alcohol. Emulsifier and emollient. Safe for most skin types including sensitive.,none
+Stearyl Alcohol,1-Octadecanol,Fatty Alcohol,Safe,Fatty alcohol used as an emollient and thickener. Non-irritating and generally safe.,none
+Behenyl Alcohol,"Docosanol, 1-Docosanol",Fatty Alcohol,Safe,"Long-chain fatty alcohol. Emollient and emulsifier. Very well tolerated, safe for sensitive skin.",none
+Arachidyl Alcohol,,Fatty Alcohol,Safe,Fatty alcohol used as an emollient. Generally safe and non-irritating.,none
+Myristyl Alcohol,1-Tetradecanol,Fatty Alcohol,Caution,Fatty alcohol that rates 2-3 on comedogenicity. Safe for most but may cause issues for acne-prone skin.,"oily, acne-prone"
+Lauryl Alcohol,1-Dodecanol,Fatty Alcohol,Caution,Fatty alcohol that can be moderately comedogenic. May irritate sensitive skin at higher concentrations.,"oily, acne-prone, sensitive"
+Ethanol,"Ethyl Alcohol, Alcohol, Grain Alcohol",Drying Alcohol,Caution,Simple alcohol that evaporates quickly. Drying to the skin barrier with repeated use. Different from fatty alcohols.,"sensitive, dry, eczema, rosacea"
+Isopropyl Alcohol,"Isopropanol, 2-Propanol, Rubbing Alcohol",Drying Alcohol,Avoid,Very drying and irritating to skin. Disrupts the lipid barrier significantly. Not suitable for facial use.,all
+Benzyl Alcohol,"Phenylmethanol, Benzenemethanol",Drying Alcohol,Caution,Used as a preservative and solvent. Can cause contact sensitivity and is a mild irritant. EU-regulated fragrance allergen.,"sensitive, eczema"
+SD Alcohol 40,"Specially Denatured Alcohol, Alcohol Denat",Drying Alcohol,Caution,Denatured ethanol. Drying to skin and disrupts the barrier. Often used in toners and astringents for a mattifying effect.,"sensitive, dry, eczema, rosacea"
+Phenoxyethanol,,Preservative,Caution,Widely used preservative considered safer than parabens. Some concerns about irritation at higher concentrations. EU limits to 1% in cosmetics.,"sensitive, eczema"
+Ethylhexylglycerin,,Preservative,Safe,Mild preservative booster derived from glycerin. Often paired with phenoxyethanol. Generally well tolerated.,none
+Sodium Benzoate,,Preservative,Caution,Preservative that can form benzene (a carcinogen) when combined with vitamin C (ascorbic acid) in formulas. Generally safe alone.,sensitive
+Potassium Sorbate,,Preservative,Safe,Mild preservative from sorbic acid. Generally well tolerated and considered one of the safer preservatives.,none
+Sorbic Acid,,Preservative,Safe,Natural preservative. Gentle and generally safe. Can cause mild irritation in very sensitive individuals.,none
+Caprylyl Glycol,,Preservative,Safe,Mild preservative and skin conditioning agent. Well tolerated by most skin types.,none
+Chlorphenesin,,Preservative,Caution,Preservative with muscle-relaxing properties. Can cause contact dermatitis in sensitive individuals.,"sensitive, eczema"
+Benzoic Acid,,Preservative,Caution,Preservative that can be irritating at higher concentrations. Generally safe in rinse-off products.,sensitive
+Salicylic Acid,,Preservative,Caution,"Beta hydroxy acid used as both an exfoliant and preservative. Can be drying and irritating, especially for dry or sensitive skin. Avoid during pregnancy.","dry, sensitive, pregnancy"
+Dehydroacetic Acid,,Preservative,Safe,Mild preservative often combined with benzyl alcohol. Generally well tolerated.,none
+Hexylene Glycol,,Preservative,Caution,Used as a solvent and preservative booster. Can be irritating at higher concentrations.,sensitive
+Propanediol,"1,3-Propanediol",Preservative,Safe,Plant-derived solvent and humectant. Gentler alternative to propylene glycol. Generally well tolerated.,none
+Pentylene Glycol,,Preservative,Safe,Mild preservative and humectant. Derived from plant sources. Well tolerated including by sensitive skin.,none
+Zinc Pyrithione,Pyrithione Zinc,Preservative,Caution,Active ingredient in anti-dandruff shampoos. Effective antifungal. EU has restricted it as a leave-on cosmetic ingredient due to environmental concerns.,all
+Piroctone Olamine,,Preservative,Safe,Anti-dandruff agent and preservative. Gentler alternative to zinc pyrithione. Generally well tolerated.,none
+Climbazole,,Preservative,Safe,Antifungal preservative used in anti-dandruff and anti-acne products. Generally safe and effective.,none
+Hyaluronic Acid,"Sodium Hyaluronate, Hyaluronan, Hyaluronate, Biohyaluronic acid, Super Hyaluronic Acid, Hydrolyzed Hyaluronic Acid, Sodium Acetylated Hyaluronate, Potassium Hyaluronate",Beneficial,Safe,Powerful humectant that holds up to 1000 times its weight in water. Occurs naturally in the skin. Suitable for all skin types including sensitive and acne-prone.,none
+Glycerin,"Glycerol, Glycerine",Beneficial,Safe,One of the most effective and well-studied humectants. Draws moisture from the environment into the skin. Safe for all skin types.,none
+Propylene Glycol,PG,Humectant,Caution,Effective humectant but can cause contact dermatitis in sensitive individuals. Generally safe at concentrations under 5%.,"sensitive, eczema"
+Butylene Glycol,"1,3-Butanediol, BG",Beneficial,Safe,Mild humectant and solvent. Less likely to cause irritation than propylene glycol. Generally well tolerated.,none
+Panthenol,"Pro-Vitamin B5, Dexpanthenol",Beneficial,Safe,Converts to vitamin B5 in the skin. Deeply hydrating and promotes skin barrier repair. Anti-inflammatory properties. Safe for all skin types.,none
+Sodium PCA,Sodium 2-Pyrrolidone-5-Carboxylate,Beneficial,Safe,Natural component of the skin's Natural Moisturising Factor (NMF). Excellent humectant. Safe for all skin types.,none
+Urea,Carbamide,Beneficial,Safe,Natural component of the skin's NMF. At low concentrations acts as a humectant. At higher concentrations acts as an exfoliant. Very effective for dry and eczema-prone skin.,none
+Betaine,Trimethylglycine,Beneficial,Safe,Derived from sugar beets. Mild humectant and anti-irritant. Helps stabilise other ingredients in formulas.,none
+Erythritol,,Beneficial,Safe,Sugar alcohol used as a humectant. Gentle and well tolerated.,none
+Sorbitol,,Beneficial,Safe,Sugar alcohol humectant. Gentle and effective. Generally well tolerated.,none
+Trehalose,,Beneficial,Safe,Natural sugar with excellent moisture-binding and protective properties. Used in hydrating products.,none
+Inositol,,Beneficial,Safe,Vitamin-like compound with humectant and soothing properties. Beneficial for sensitive and acne-prone skin.,none
+Serine,,Beneficial,Safe,Amino acid that is a natural component of skin's NMF. Hydrating and gentle.,none
+Sodium Lactate,,Beneficial,Safe,Sodium salt of lactic acid. Effective humectant and mild exfoliant. Component of the skin's NMF.,none
+Lactic Acid,,AHA,Caution,Alpha hydroxy acid derived from milk. Exfoliates by loosening the bonds between dead skin cells. Gentler than glycolic acid. Increases sun sensitivity — always use SPF.,"sensitive, dry"
+Glycolic Acid,,AHA,Caution,"Smallest AHA molecule — most effective but also most irritating. Exfoliates, brightens, and stimulates collagen. Increases photosensitivity significantly.","sensitive, dry, rosacea"
+Mandelic Acid,,AHA,Safe,Larger AHA molecule derived from bitter almonds. Gentlest AHA. Also has antibacterial properties — good for acne-prone skin. Increases sun sensitivity.,none
+Malic Acid,,AHA,Safe,Mild AHA derived from apples. Often used in combination with other AHAs. Gentle and generally well tolerated.,none
+Tartaric Acid,,AHA,Safe,Mild AHA derived from grapes. Often used as a pH adjuster and mild exfoliant.,none
+Citric Acid,"2-Hydroxy-1,2,3-propanetricarboxylic acid",AHA,Caution,Mild AHA used primarily as a pH adjuster. At higher concentrations can exfoliate but also irritate.,sensitive
+Salicylic Acid,"BHA, Beta Hydroxy Acid",BHA,Caution,Oil-soluble exfoliant that penetrates pores to remove dead cells and excess sebum. Excellent for acne. Avoid during pregnancy.,"dry, sensitive, pregnancy"
+Polyhydroxy Acids,"PHA, Gluconolactone, Lactobionic Acid",PHA,Safe,"Largest exfoliant molecules — gentlest exfoliation with additional humectant benefits. Suitable for sensitive, dry, and eczema-prone skin.",none
+Azelaic Acid,,Beneficial,Safe,"Multitasking ingredient that exfoliates, reduces hyperpigmentation, kills acne bacteria, and reduces redness. Safe during pregnancy. Excellent for rosacea.",none
+Kojic Acid,,Beneficial,Caution,Brightening ingredient that inhibits tyrosinase enzyme. Effective for hyperpigmentation. Can cause sensitisation with prolonged use.,sensitive
+Retinol,"Vitamin A, All-trans Retinol",Retinoid,Caution,"Gold standard anti-ageing ingredient. Increases cell turnover, stimulates collagen, and improves texture. Can cause irritation, dryness, and photosensitivity. Avoid during pregnancy.","sensitive, dry, pregnancy, rosacea"
+Retinal,Retinaldehyde,Retinoid,Caution,More potent than retinol but less so than retinoic acid. Faster results with slightly more irritation potential. Avoid during pregnancy.,"sensitive, pregnancy"
+Retinyl Palmitate,Vitamin A Palmitate,Retinoid,Safe,Ester form of vitamin A. Weakest retinoid — least effective but also least irritating. Safe starting point for retinoid beginners.,pregnancy
+Retinyl Acetate,,Retinoid,Safe,Ester form of vitamin A. Milder than retinol. Converted to retinol in the skin.,pregnancy
+Bakuchiol,,Beneficial,Safe,Plant-derived retinol alternative from Psoralea corylifolia. Studies show comparable results to retinol with significantly less irritation. Safe during pregnancy.,none
+Granactive Retinoid,"Hydroxypinacolone Retinoate, HPR",Retinoid,Safe,Next-generation retinoid that works without conversion steps. Less irritating than retinol with effective results.,pregnancy
+Ascorbic Acid,"Vitamin C, L-Ascorbic Acid",Antioxidant,Caution,"Purest form of vitamin C. Powerful antioxidant, brightens, stimulates collagen, protects against UV damage. Unstable — oxidises quickly. Can be irritating at high concentrations. Avoid mixing with niacinamide at high concentrations.","sensitive, rosacea"
+Sodium Ascorbyl Phosphate,SAP,Antioxidant,Safe,Stable vitamin C derivative. More gentle than ascorbic acid. Also has antibacterial properties beneficial for acne-prone skin.,none
+Ascorbyl Glucoside,AA2G,Antioxidant,Safe,Stable vitamin C derivative. Gentler and more stable than ascorbic acid. Less potent but well tolerated.,none
+Magnesium Ascorbyl Phosphate,MAP,Antioxidant,Safe,"Stable, water-soluble vitamin C derivative. Gentle and effective brightener suitable for sensitive skin.",none
+Ascorbyl Tetraisopalmitate,"Vitamin C ATIP, Tetrahexyldecyl Ascorbate, VC-IP, Vitamin C Tetraisopalmitate, Ascorbyl tetra-2-hexyldecanoate",Antioxidant,Safe,"Oil-soluble, stable vitamin C derivative. Penetrates well and is very gentle. Good for dry and sensitive skin.",none
+Ethyl Ascorbic Acid,3-O-Ethyl Ascorbic Acid,Antioxidant,Safe,Stable and potent vitamin C derivative. Good skin penetration and brightening efficacy.,none
+Niacinamide,"Vitamin B3, Nicotinamide",Beneficial,Safe,"Multi-tasking ingredient that reduces pore appearance, controls oil, brightens skin, strengthens the barrier, and reduces redness. Well studied and safe for all skin types including acne-prone and sensitive.",none
+Nicotinic Acid,"Niacin, Vitamin B3 Acid Form",Beneficial,Caution,Can cause temporary flushing (redness and tingling) when applied topically. Convert to niacinamide for stable benefit.,"sensitive, rosacea"
+Biotin,"Vitamin B7, Vitamin H",Beneficial,Safe,B vitamin used in hair and nail products. Supports keratin structure. Generally safe and well tolerated.,none
+Riboflavin,Vitamin B2,Beneficial,Safe,Antioxidant vitamin. Used in some serums for its skin-protective properties.,none
+Pyridoxine,Vitamin B6,Beneficial,Safe,Regulates sebum production. Beneficial for oily and acne-prone skin. Anti-inflammatory properties.,none
+Tocopherol,"Vitamin E, Alpha-Tocopherol",Antioxidant,Safe,Fat-soluble antioxidant that protects against oxidative damage. Works synergistically with vitamin C. Moisturising and skin-repairing.,none
+Tocopheryl Acetate,Vitamin E Acetate,Antioxidant,Safe,Stable ester form of vitamin E. Less potent as an antioxidant but more stable. Generally safe.,none
+Resveratrol,,Antioxidant,Safe,Powerful antioxidant from grape skins. Anti-inflammatory and protective against UV damage.,none
+Ferulic Acid,,Antioxidant,Safe,Plant-derived antioxidant that doubles the effectiveness of vitamins C and E. Commonly used in combination serums.,none
+Coenzyme Q10,"Ubiquinone, CoQ10",Antioxidant,Safe,Antioxidant naturally present in skin cells. Decreases with age. Helps protect against free radical damage.,none
+Glutathione,,Antioxidant,Safe,Master antioxidant naturally produced by the body. Brightening and protective. Generally safe.,none
+Astaxanthin,,Antioxidant,Safe,One of the most powerful natural antioxidants. Anti-inflammatory and protective. Generally safe and beneficial.,none
+Lycopene,,Antioxidant,Safe,Carotenoid antioxidant from tomatoes. Protective against UV damage and oxidative stress.,none
+Beta-Carotene,Provitamin A,Antioxidant,Safe,Antioxidant carotenoid that converts to vitamin A. Protective and brightening. Generally safe.,none
+Epigallocatechin Gallate,"EGCG, Green Tea Extract",Antioxidant,Safe,Potent antioxidant from green tea. Anti-inflammatory and protective against UV damage. Safe for all skin types.,none
+Quercetin,,Antioxidant,Safe,Flavonoid antioxidant with anti-inflammatory and antihistamine properties. Beneficial for sensitive and reactive skin.,none
+Ceramide NP,"Ceramide 3, N-stearoyl phytosphingosine",Beneficial,Safe,Key lipid in the skin barrier. Replenishes lost ceramides to restore barrier function. Essential for dry and eczema-prone skin.,none
+Ceramide AP,Ceramide 6 II,Beneficial,Safe,"Another key skin barrier ceramide. Works best in combination with other ceramides, cholesterol, and fatty acids.",none
+Ceramide EOP,Ceramide 1,Beneficial,Safe,Long-chain ceramide crucial for skin barrier integrity. Part of the optimal ceramide complex for barrier repair.,none
+Cholesterol,,Beneficial,Safe,Essential component of the skin barrier lipid matrix alongside ceramides and fatty acids. Helps restore barrier function.,none
+Fatty Acids,"Linoleic Acid, Linolenic Acid, Oleic Acid",Beneficial,Safe,Essential fatty acids that maintain the skin barrier. Linoleic acid is particularly beneficial for acne-prone skin.,none
+Squalane,"Perhydrosqualene, Pripure 3759, Hydrogenated Squalene, Squalane Oil",Beneficial,Safe,"Highly stable emollient derived from olives or sugarcane. Identical to naturally occurring squalene in skin. Lightweight, non-comedogenic, and excellent for all skin types.",none
+Squalene,,Beneficial,Safe,Naturally occurring lipid produced by sebaceous glands. Declines with age. Excellent emollient. Note: different from squalane (the stable form).,none
+Allantoin,,Beneficial,Safe,"Skin-soothing and healing ingredient. Promotes cell renewal and softens skin. Suitable for sensitive, irritated, and eczema-prone skin.",none
+Centella Asiatica Extract,"Cica, Tiger Grass, Gotu Kola, TECA",Beneficial,Safe,"Traditional healing plant extract. Contains madecassoside, asiaticoside, and asiatic acid. Promotes wound healing, reduces inflammation, and strengthens the skin barrier.",none
+Madecassoside,,Beneficial,Safe,Active compound from centella asiatica. Potent anti-inflammatory and wound-healing properties. Strengthens the skin barrier.,none
+Asiaticoside,,Beneficial,Safe,Active compound from centella asiatica. Stimulates collagen synthesis and promotes healing.,none
+Beta-Glucan,"Oat Beta-Glucan, Yeast Beta-Glucan",Beneficial,Safe,Polysaccharide from oats or yeast. Deeply hydrating and soothing. Stimulates collagen production. Safe for all skin types.,none
+Oat Extract,"Avena Sativa Extract, Colloidal Oatmeal",Beneficial,Safe,Anti-inflammatory and soothing. Colloidal oatmeal is an FDA-approved active ingredient for eczema relief.,none
+Aloe Vera,"Aloe Barbadensis Leaf Juice, Aloe Extract",Beneficial,Safe,"Soothing, hydrating, and anti-inflammatory. Speeds wound healing. Generally safe — rarely some individuals are sensitive to aloe.",none
+Palmitoyl Pentapeptide-4,"Matrixyl, Palmitoyl Pentapeptide",Peptide,Safe,One of the most studied cosmetic peptides. Stimulates collagen and hyaluronic acid production. Effective anti-ageing with good safety profile.,none
+Palmitoyl Tripeptide-1,Biopeptide CL,Peptide,Safe,Peptide that stimulates collagen type I synthesis. Often combined with palmitoyl tetrapeptide-7.,none
+Palmitoyl Tetrapeptide-7,"Rigin, GQPR",Peptide,Safe,Peptide that reduces inflammation and glycation. Complements palmitoyl tripeptide-1 in anti-ageing formulas.,none
+Acetyl Hexapeptide-3,"Argireline, Acetyl Hexapeptide-8",Peptide,Safe,Peptide often marketed as botox-in-a-bottle. Relaxes facial tension with repeated use. Generally safe.,none
+Copper Peptide,"GHK-Cu, Copper Tripeptide-1",Peptide,Safe,"Promotes collagen and elastin synthesis, wound healing, and antioxidant activity. One of the most studied cosmetic peptides.",none
+Leuphasyl,Pentapeptide-18,Peptide,Safe,Peptide that reduces expression lines by relaxing muscular tension. Synergistic with argireline.,none
+Syn-Ake,Dipeptide Diaminobutyroyl Benzylamide Diacetate,Peptide,Safe,Synthetic peptide mimicking snake venom (temple viper). Relaxes muscle contractions to reduce wrinkles.,none
+Alpha Arbutin,,Beneficial,Safe,Stable form of arbutin that inhibits tyrosinase to reduce hyperpigmentation. Safer and more effective than beta arbutin. Safe for all skin types.,none
+Beta Arbutin,Arbutin,Beneficial,Caution,Converts to hydroquinone in the skin — same brightening effect but with hydroquinone-related concerns at higher concentrations.,sensitive
+Tranexamic Acid,,Beneficial,Safe,Brightening ingredient that targets multiple pathways of pigmentation. Gentle and suitable for sensitive skin. Can be used during pregnancy.,none
+Licorice Root Extract,"Glycyrrhiza Glabra Root Extract, Glabridin",Beneficial,Safe,Contains glabridin which inhibits tyrosinase. Brightening and anti-inflammatory. Gentle and safe for sensitive skin.,none
+Vitamin C,Ascorbic Acid and derivatives,Antioxidant,Caution,See Ascorbic Acid entry. Collective term for all vitamin C forms used in skincare.,sensitive
+Diacetyl Boldine,,Beneficial,Safe,Plant-derived brightening ingredient from boldo leaves. Inhibits melanin production. Well tolerated.,none
+Bearberry Extract,Arctostaphylos Uva-Ursi Leaf Extract,Beneficial,Safe,Natural source of arbutin. Brightening and antioxidant. Generally safe.,none
+Mulberry Extract,Morus Alba Root Extract,Beneficial,Safe,Contains oxyresveratrol which inhibits tyrosinase. Effective brightener with antioxidant properties.,none
+Zinc Oxide,ZnO,UV Filter,Safe,"Mineral UV filter that provides broad-spectrum UVA and UVB protection. Non-irritating and safe for sensitive, acne-prone, and reactive skin. Safe during pregnancy.",none
+Titanium Dioxide,TiO2,UV Filter,Safe,Mineral UV filter primarily for UVB protection. Non-irritating and safe for sensitive skin. Safe during pregnancy.,none
+Tinosorb S,Bis-Ethylhexyloxyphenol Methoxyphenyl Triazine,UV Filter,Safe,Photostable chemical UV filter available in EU and Asia. Not approved in US. Excellent broad-spectrum protection with low penetration.,none
+Tinosorb M,Methylene Bis-Benzotriazolyl Tetramethylbutylphenol,UV Filter,Safe,Photostable UV filter. Hybrid mineral-chemical filter. Available in EU and Asia. Low skin penetration.,none
+Uvinul A Plus,"Diethylamino Hydroxybenzoyl Hexyl Benzoate, DHHB",UV Filter,Safe,Photostable UVA filter with low penetration. Available in EU. Not approved in US.,none
+Bisabolol,Alpha-Bisabolol,Beneficial,Safe,"Chamomile-derived soothing ingredient. Anti-inflammatory, skin-lightening, and wound-healing properties. Safe for sensitive and irritated skin.",none
+Chamomile Extract,"Matricaria Chamomilla Extract, Anthemis Nobilis Flower Extract",Beneficial,Safe,Anti-inflammatory and soothing. Contains bisabolol and apigenin. Gentle and suitable for sensitive skin.,none
+Calendula Extract,Calendula Officinalis Flower Extract,Beneficial,Safe,Anti-inflammatory and wound-healing. Rich in flavonoids and triterpenoids. Soothing for sensitive and irritated skin.,none
+Green Tea Extract,Camellia Sinensis Leaf Extract,Antioxidant,Safe,"Rich in EGCG and other polyphenols. Antioxidant, anti-inflammatory, and antibacterial. Safe for all skin types including acne-prone.",none
+White Tea Extract,Camellia Sinensis Leaf Extract (White Tea),Antioxidant,Safe,Highest antioxidant content of all tea extracts. Gentle and suitable for sensitive skin.,none
+Turmeric Extract,"Curcuma Longa Root Extract, Curcumin",Beneficial,Caution,Potent anti-inflammatory and antioxidant. Can cause temporary yellowing of skin at high concentrations.,none
+Rosehip Extract,Rosa Canina Fruit Extract,Beneficial,Safe,"Rich in vitamins C and A, and fatty acids. Brightening and anti-ageing. Generally safe.",none
+Licorice Extract,Glycyrrhiza Glabra Root Extract,Beneficial,Safe,Soothing and brightening. Contains glycyrrhizin which reduces inflammation. Safe for sensitive skin.,none
+Willow Bark Extract,Salix Alba Bark Extract,Beneficial,Caution,Natural source of salicylates. Mild exfoliating and antibacterial. Gentler than synthetic salicylic acid.,"sensitive, pregnancy"
+Mushroom Extract,"Tremella Fuciformis Extract, Shiitake Extract, Albatrellus Confluens Extract, Ganoderma Lucidum Extract, Lentinus Edodes Extract, Inonotus Obliquus Extract",Beneficial,Safe,Tremella mushroom holds more water than hyaluronic acid. Antioxidant and soothing. Safe for all skin types.,none
+Sea Kelp Extract,Laminaria Digitata Extract,Beneficial,Safe,"Rich in minerals, vitamins, and amino acids. Hydrating and antioxidant. Generally safe.",none
+Red Algae Extract,"Chondrus Crispus Extract, Irish Moss",Beneficial,Safe,Hydrating and film-forming. Rich in minerals. Generally safe when properly formulated.,none
+Collagen,"Hydrolyzed Collagen, Marine Collagen",Beneficial,Safe,Topical collagen acts as a humectant and conditioning agent. Collagen molecules are too large to penetrate skin — works on the surface. Safe and non-irritating.,none
+Elastin,Hydrolyzed Elastin,Beneficial,Safe,Hydrolyzed form acts as a humectant and conditioning agent on the skin surface. Generally safe.,none
+Silk Proteins,"Hydrolyzed Silk, Sericin",Beneficial,Safe,Amino acid-rich proteins that condition and hydrate skin and hair. Form a protective film. Generally safe.,none
+Keratin,Hydrolyzed Keratin,Beneficial,Safe,"Structural protein of skin, hair, and nails. Hydrolyzed form strengthens hair and nails. Generally safe.",none
+Malic Acid,,Beneficial,Safe,Mild AHA from apples. Often used in combination formulas. Gentle and suitable for most skin types.,none
+Phytic Acid,,Beneficial,Safe,Antioxidant and mild exfoliant. Also chelates metal ions that can accelerate oxidation. Generally gentle.,none
+Lactobionic Acid,,Beneficial,Safe,PHA (polyhydroxy acid). Large molecule that exfoliates gently. Also a powerful antioxidant and humectant. Great for sensitive skin.,none
+Gluconolactone,,Beneficial,Safe,"PHA with antioxidant and humectant properties alongside gentle exfoliation. Safe for sensitive, dry, and eczema-prone skin.",none
+Zinc,"Zinc Gluconate, Zinc Sulfate, Zinc PCA",Beneficial,Safe,"Regulates sebum production, reduces inflammation, and has antibacterial properties. Beneficial for oily and acne-prone skin.",none
+Sulfur,Precipitated Sulfur,Beneficial,Safe,"Keratolytic and antibacterial. Effective for acne, seborrheic dermatitis, and rosacea. Can be drying and has a strong odour.",dry
+Selenium,"Selenium Sulfide, Sodium Selenite, Selenium Disulfide",Beneficial,Safe,Antioxidant mineral. Used in anti-dandruff products and some antioxidant serums.,none
+Iron Oxides,"CI 77491, CI 77492, CI 77499",Beneficial,Safe,Mineral pigments used in colour cosmetics and tinted SPFs. Safe and non-irritating. Also provide some UV protection.,none
+Niacinamide,"Vitamin B3, Nicotinamide",Beneficial,Safe,See full entry above. Repeated here as it is one of the most important ingredients to recognise.,none
+Adenosine,,Beneficial,Safe,Purine nucleoside that stimulates collagen synthesis and has anti-inflammatory properties. Good anti-ageing ingredient with an excellent safety profile.,none
+Hexylresorcinol,,Beneficial,Safe,Brightening ingredient four times more potent than kojic acid. Also has antibacterial properties. Generally well tolerated.,none
+Epidermal Growth Factor,"EGF, sh-Oligopeptide-1",Beneficial,Caution,Stimulates cell renewal and collagen production. Controversial — some dermatologists concerned about potential to stimulate abnormal cell growth.,acne-prone
+Stem Cell Extracts,"Plant Stem Cells, Apple Stem Cell",Beneficial,Safe,Plant stem cell extracts provide antioxidants and support skin's own stem cells. Generally safe but efficacy claims are often exaggerated.,none
+Probiotics,"Lactobacillus Ferment, Bifida Ferment Lysate",Beneficial,Safe,"Support the skin's microbiome. Anti-inflammatory and barrier-strengthening. Beneficial for acne-prone, sensitive, and eczema-prone skin.",none
+Prebiotic,"Inulin, Fructooligosaccharides",Beneficial,Safe,Feed beneficial bacteria on the skin. Support microbiome balance. Generally safe and gentle.,none
+Postbiotic,"Fermented Ingredients, Lysates",Beneficial,Safe,By-products of probiotic fermentation. Anti-inflammatory and barrier-supporting. Generally well tolerated.,none
+Snail Secretion Filtrate,"Snail Mucin, SSMF",Beneficial,Safe,"Contains glycoproteins, hyaluronic acid, glycolic acid, zinc, and copper. Hydrating, brightening, and healing. Generally safe.",none
+Peptides (General),See individual peptide entries,Beneficial,Safe,"Protein fragments that signal skin cells to produce collagen, elastin, and other proteins. Generally safe and well studied.",none
+Niacinamide (Second Entry),Vitamin B3,Beneficial,Safe,"One of the most evidence-backed skincare ingredients. Safe, stable, and compatible with most other ingredients.",none
+Caffeine,,Beneficial,Safe,Antioxidant and anti-inflammatory. Reduces puffiness by constricting blood vessels. Used in eye creams and anti-cellulite products. Generally safe.,none
+Acetyl Glucosamine,"NAG, N-Acetyl Glucosamine",Beneficial,Safe,Precursor to hyaluronic acid. Also has brightening properties and supports skin renewal.,none
+Ectoin,,Beneficial,Safe,Extremophile-derived molecule. Stabilises proteins and cell membranes. Protective and soothing. Excellent for sensitive and environmentally stressed skin.,none
+Snow Algae Extract,Chlamydomonas Nivalis Extract,Beneficial,Safe,Derived from algae that survive in extreme cold. Activates longevity genes in skin cells. Antioxidant and protective.,none
+Bakuchiol,,Beneficial,Safe,See retinoid section. Plant-based retinol alternative safe for sensitive skin and during pregnancy.,none
+Sea Water,"Aqua Marina, Marine Water",Beneficial,Caution,Rich in trace minerals. Used as a hydrating and mineral-replenishing ingredient. May cause irritation for some sensitive skin types.,"sensitive, eczema"
+Thermal Water,"Avene Thermal Spring Water, La Roche-Posay Thermal Water, Demineralized Spring Water, Avene aqua, Uriage thermal spring water, Onsen-Sui",Beneficial,Safe,Mineral-rich spring water with documented soothing and anti-inflammatory properties. Safe for all including sensitive skin.,none
+Rose Water,"Rosa Damascena Flower Water, Rose Hydrosol",Beneficial,Caution,Gentle toner with anti-inflammatory properties. Generally safe but can cause reactions in individuals sensitive to fragrances or rose.,sensitive
+Witch Hazel (Alcohol-Free),Hamamelis Virginiana Bark/Leaf Extract,Beneficial,Safe,Alcohol-free witch hazel retains tannin-based anti-inflammatory benefits without the irritating drying effect of alcohol-based versions.,none
+Hyaluronic Acid (Low Molecular Weight),"Nano Hyaluronic Acid, Sodium Hyaluronate Crosspolymer",Beneficial,Safe,Smaller HA fragments that penetrate deeper into the skin for more intensive hydration. Generally safe.,none
+Polyglutamic Acid,PGA,Beneficial,Safe,"Holds 4 times more moisture than hyaluronic acid. Also inhibits the enzyme that breaks down HA, making your own HA last longer.",none
+Marine Collagen,"Fish Collagen, Hydrolyzed Marine Collagen",Beneficial,Safe,Topically acts as a humectant. Generally safe unless allergic to fish.,fish-allergy
+Silk Amino Acids,Hydrolyzed Silk Amino Acids,Beneficial,Safe,Conditioning and hydrating amino acids from silk. Safe for skin and hair.,none
+Watermelon Extract,Citrullus Lanatus Fruit Extract,Beneficial,Safe,Rich in lycopene and citrulline. Antioxidant and hydrating. Safe for all skin types.,none
+Pomegranate Extract,Punica Granatum Extract,Beneficial,Safe,"Rich in punicalagin and ellagic acid. Antioxidant, anti-inflammatory, and brightening. Safe for most skin types.",none
+Sea Buckthorn Extract,Hippophae Rhamnoides Extract,Beneficial,Caution,"Rich in vitamins, omega fatty acids, and carotenoids. Highly nutritive but can tint skin orange at high concentrations.",none
+Noni Extract,Morinda Citrifolia Fruit Extract,Beneficial,Safe,Antioxidant and soothing. Anti-ageing properties. Generally safe.,none
+Turmeric,Curcuma Longa Root Extract,Beneficial,Caution,Potent anti-inflammatory. Can cause temporary skin yellowing and may stain clothing. Generally safe at low concentrations.,none
+Retinol Derivatives,"Retinyl Palmitate, Retinyl Acetate, Retinyl Linoleate",Retinoid,Safe,Ester forms of vitamin A converted to retinol in skin. Gentler than retinol but less potent. Good for beginners.,pregnancy
+Mica,"CI 77019, Potassium Aluminium Silicate",Beneficial,Safe,Natural mineral used to add shimmer and glow to cosmetics. Non-irritating and safe for most skin types.,none
+Xanthan Gum,,Beneficial,Safe,Natural thickener and stabiliser. Derived from fermentation. Non-irritating and safe for all skin types.,none
+Carbomer,"Polyacrylic Acid, Carbopol",Beneficial,Safe,Synthetic thickener and gel-forming agent. Generally safe and non-irritating at cosmetic concentrations.,none
+Hydroxyethylcellulose,HEC,Beneficial,Safe,Natural-derived thickener from cellulose. Non-irritating and safe. Used to give products a gel texture.,none
+Sodium Hyaluronate,"Hyaluronic Acid Sodium Salt, Kopuron, Hydrolyzed Sodium Hyaluronate, Sodium Acetylated Hyaluronate",Beneficial,Safe,Sodium salt of hyaluronic acid. Penetrates skin more easily than high molecular weight HA. Key hydrating ingredient.,none
+Polyglyceryl Esters,"Polyglyceryl-3 Methylglucose Distearate, Polyglyceryl-6 Distearate",Beneficial,Safe,Gentle emulsifiers derived from plant glycerin. Well tolerated by sensitive skin. Good alternative to ethoxylated emulsifiers.,none
+Lecithin,"Soy Lecithin, Sunflower Lecithin, Phosphatidylcholine",Beneficial,Safe,Natural emulsifier from plants. Strengthens the skin barrier and has excellent hydrating properties. Generally safe.,none
+Linoleic Acid,Omega-6,Beneficial,Safe,Essential fatty acid that the body cannot produce. Deficiency linked to acne. Topical application helps restore barrier and reduce breakouts.,none
+Sodium Ascorbate,Vitamin C Salt,Antioxidant,Safe,"Stable, gentle form of vitamin C. Less irritating than ascorbic acid. Effective antioxidant and brightener.",none
+Dipotassium Glycyrrhizate,,Beneficial,Safe,Derived from licorice root. Potent anti-inflammatory and soothing agent. Suitable for sensitive and rosacea-prone skin.,none
+Chlorella Extract,Chlorella Vulgaris Extract,Beneficial,Safe,"Freshwater algae rich in proteins, vitamins, and minerals. Antioxidant and detoxifying. Generally safe.",none
+Mushroom Extract (Reishi),Ganoderma Lucidum Extract,Beneficial,Safe,Adaptogenic mushroom with antioxidant and anti-inflammatory properties. Supports the skin barrier.,none
+Malachite Extract,,Antioxidant,Safe,Mineral-derived antioxidant that protects against environmental pollutants. Strengthens skin's natural defences.,none
+Bakuchiol,Psoralea Corylifolia Seed Extract,Beneficial,Safe,Plant-derived retinol alternative. Stimulates collagen without the irritation of retinoids. Safe for pregnancy.,none
+Snow Mushroom,Tremella Fuciformis Sporocarp Extract,Beneficial,Safe,Holds more water than hyaluronic acid. Traditional Asian beauty ingredient with excellent hydrating and brightening properties.,none
+Saccharomyces Ferment,"Yeast Extract, Saccharomyces Cerevisiae Extract",Beneficial,Safe,"Fermented yeast extract rich in amino acids, vitamins, and minerals. Brightening and skin-strengthening.",none
+Galactomyces Ferment Filtrate,"Galactomyces, GFF",Beneficial,Safe,"Fermented ingredient that brightens, refines pores, and balances oil. Key ingredient in many Korean skincare products.",none
+Bifida Ferment Lysate,,Beneficial,Safe,Fermented probiotic ingredient that strengthens the skin barrier and has anti-ageing properties.,none
+Sodium Lauroyl Glutamate,,Beneficial,Safe,Amino acid-derived gentle surfactant. Very mild cleanser suitable for sensitive and baby skin.,none
+Cocamidopropyl Betaine,"Cocoamidopropyl Betaine, Cocoamido propyl Betaine, CAPB, Cocoyl Amide Propyldimethyl Glycine",Beneficial,Caution,Amphoteric surfactant that reduces irritation of other surfactants. Generally mild but can cause contact dermatitis in some individuals.,"sensitive, eczema"
+Decyl Glucoside,,Beneficial,Safe,Very gentle non-ionic surfactant derived from glucose and coconut. Suitable for sensitive and baby skin.,none
+Coco Glucoside,,Beneficial,Safe,Gentle surfactant derived from coconut and fruit sugars. Mild and suitable for sensitive skin. Biodegradable.,none
