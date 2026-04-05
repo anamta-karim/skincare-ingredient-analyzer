@@ -89,6 +89,6 @@ if uploaded_file is not None:
         
         # Not found
         if results['not_found']:
-            st.subheader("❓ Not Found in Database")
+            st.subheader("Not Found in Database")
             st.write("These ingredients could not be matched:")
             st.write(', '.join(results['not_found']))
