@@ -1,94 +1,138 @@
-import streamlit as st
-import tempfile
+from flask import Flask, render_template, request, jsonify
 import os
+import json
 from ocr_utils import extract_ingredients
 from analysis_utils import analyze_ingredients, calculate_safety_score
+from rapidfuzz import process, fuzz
 
-# Page config
-st.set_page_config(page_title="Skincare Ingredient Analyzer", page_icon="🧴")
+app = Flask(__name__)
+app.config['UPLOAD_FOLDER'] = 'static/uploads'
+os.makedirs(app.config['UPLOAD_FOLDER'], exist_ok=True)
 
-# Title
-st.title("🧴 Skincare Ingredient Analyzer")
-st.write("Upload a product label photo to analyze ingredients based on your skin type.")
+# ====================== LOAD ALL DATA ======================
+# Products for Recommender
+with open('data/products.json', 'r', encoding='utf-8') as f:
+    PRODUCTS = json.load(f)
 
-# Skin type selection
-skin_types = st.multiselect(
-    "Select your skin type(s)",
-    ["Sensitive", "Dry", "Oily", "Acne-Prone", "Combination", "Eczema"]
-)
+# Brands for EthiScan
+with open('data/brands.json', 'r', encoding='utf-8') as f:
+    BRANDS = json.load(f)['brands']
 
-skin_type = skin_types if skin_types else None
+print("✅ All data loaded successfully!")
+print(f"   • Products: {sum(len(cat) for cat in PRODUCTS.values())} items")
+print(f"   • Brands: {len(BRANDS)} brands")
 
-# File upload
-uploaded_file = st.file_uploader("Upload product label image", type=["jpg", "jpeg", "png"])
+# ====================== ROUTES ======================
 
-if uploaded_file is not None:
-    # Show the uploaded image
-    uploaded_file.seek(0)
-    st.image(uploaded_file, caption="Uploaded Label", use_container_width=True)
-        
-    # Save uploaded file temporarily so EasyOCR can read it
-    with tempfile.NamedTemporaryFile(delete=False, suffix=".jpg") as tmp:
-        tmp.write(uploaded_file.read())
-        tmp_path = tmp.name
-    
-    # Run OCR
-    with st.spinner("Extracting ingredients from image..."):
-        ingredients = extract_ingredients(tmp_path)
-    
-    # Clean up temp file
-    os.unlink(tmp_path)
-    
-    # Show extracted ingredients in editable text box
-    st.subheader("Extracted Ingredients")
-    st.write("Review and correct if needed:")
-    ingredients_text = st.text_area(
-        "Ingredient list",
-        value=', '.join(ingredients),
-        height=150
-    )
-    
-    # Analyze button
-    if st.button("Analyze Ingredients"):
-        # Parse the (possibly edited) ingredient list
-        final_ingredients = [i.strip().lower() for i in ingredients_text.split(',') if i.strip()]
-        
-        # Run analysis
-        results = analyze_ingredients(final_ingredients, skin_type=skin_type)
-        score = calculate_safety_score(results)
-        
-        # Display safety score
-        st.subheader("Safety Analysis")
-        if skin_type:
-            st.write(f"Analysis for **{', '.join(skin_type)}** skin type")
-        
-        # Score display
-        if score >= 80:
-            st.success(f"Safety Score: {score}/100")
-        elif score >= 60:
-            st.warning(f"Safety Score: {score}/100")
-        else:
-            st.error(f"Safety Score: {score}/100")
-        
-        # Stats
-        col1, col2, col3 = st.columns(3)
-        col1.metric("Safe", results['safe_count'])
-        col2.metric("Caution", results['caution_count'])
-        col3.metric("Avoid", results['avoid_count'])
-        
-        # Flagged ingredients
-        if results['flagged']:
-            st.subheader("⚠️ Flagged Ingredients")
-            for item in results['flagged']:
-                if item['concern_level'] == 'Avoid':
-                    st.error(f"**{item['ingredient_name']}** — {item['explanation']}")
-                else:
-                    st.warning(f"**{item['ingredient_name']}** — {item['explanation']}")
-        else:
-            st.success("✓ No flagged ingredients for your skin type.")
-        
-        # Not found
-        if results['not_found']:
-            st.subheader("Not Found in Database")
-            st.write("These ingredients could not be matched:")
-            st.write(', '.join(results['not_found']))
+@app.route('/')
+def index():
+    return render_template('index.html')
+
+@app.route('/analyzer')
+def analyzer():
+    return render_template('analyzer.html')
+
+@app.route('/recommender')
+def recommender():
+    return render_template('recommender.html')
+
+@app.route('/ethiscan')
+def ethiscan():
+    return render_template('ethiscan.html')
+
+# ====================== API ENDPOINTS ======================
+
+@app.route('/api/analyze', methods=['POST'])
+def analyze():
+    skin_type = request.form.getlist('skin_type')
+    image = request.files.get('image')
+    manual_text = request.form.get('manual_text', '')
+
+    if image and image.filename:
+        path = os.path.join(app.config['UPLOAD_FOLDER'], image.filename)
+        image.save(path)
+        ingredients = extract_ingredients(path)
+    else:
+        ingredients = [i.strip() for i in manual_text.split(',') if i.strip()]
+
+    # Run analysis
+    results = analyze_ingredients(ingredients, skin_type=skin_type)
+    score = calculate_safety_score(results)
+
+    # Convert pandas dicts to plain dicts for JSON
+    safe_results = []
+    for r in results.get('matched', []):
+        safe_results.append({
+            'ingredient': r.get('ingredient_name', ''),
+            'matched_name': r.get('ingredient_name', ''),
+            'concern_level': r.get('concern_level', ''),
+            'category': r.get('category', ''),
+            'explanation': r.get('explanation', ''),
+            'benefit': r.get('benefit', ''),
+            'flagged': r.get('concern_level') in ['Caution', 'Avoid']
+        })
+
+    return jsonify({
+        'ingredients': ingredients,
+        'results': safe_results,
+        'score': score,
+        'flagged': results.get('flagged', []),
+        'safe_count': results.get('safe_count', 0),
+        'caution_count': results.get('caution_count', 0),
+        'avoid_count': results.get('avoid_count', 0)
+    })
+
+@app.route('/api/recommend', methods=['POST'])
+def recommend():
+    data = request.get_json()
+    skin_type = data.get('skin_type', '').lower()
+    concerns = [c.lower() for c in data.get('concerns', [])]
+
+    recommendations = {}
+
+    for category, products in PRODUCTS.items():
+        matched = []
+        for p in products:
+            skin_match = skin_type in [s.lower() for s in p.get('skin_types', [])]
+            concern_match = any(c in [x.lower() for x in p.get('concerns', [])] for c in concerns)
+            if skin_match and (not concerns or concern_match):
+                matched.append(p)
+        matched.sort(key=lambda x: x.get('rating', 0), reverse=True)
+        recommendations[category] = matched[:5]
+
+    return jsonify(recommendations)
+
+@app.route('/api/check_brand', methods=['POST'])
+def check_brand():
+    data = request.get_json()
+    brand_input = data.get('brand_name', '').strip().lower()
+
+    if not brand_input:
+        return jsonify({'error': 'Please enter a brand name'}), 400
+
+    # 1. Exact match (including aliases)
+    for brand in BRANDS:
+        name_lower = brand['name'].lower()
+        aliases = [a.lower() for a in brand.get('aliases', [])]
+        if brand_input == name_lower or brand_input in aliases:
+            return jsonify(brand)
+
+    # 2. Fuzzy match
+    brand_names = [b['name'].lower() for b in BRANDS]
+    match = process.extractOne(brand_input, brand_names, scorer=fuzz.token_sort_ratio)
+    if match and match[1] >= 80:
+        matched_brand = next((b for b in BRANDS if b['name'].lower() == match[0]), None)
+        if matched_brand:
+            return jsonify(matched_brand)
+
+    # 3. Not found
+    return jsonify({
+        'name': brand_input.title(),
+        'cruelty_free': None,
+        'vegan': None,
+        'note': "Brand not found in our database. Try searching on Cruelty-Free Kitty or PETA directly!",
+        'source': "Not found"
+    })
+
+if __name__ == '__main__':
+    app.run(debug=True)
